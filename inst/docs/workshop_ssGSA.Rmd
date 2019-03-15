@@ -9,8 +9,9 @@ output: html_document
 Aedin Culhane aedin at jimmy.harvard.edu
 
 # Workshop Description
+Single sample gene set analysis is widely used to discover new molecular subtype or clusters in molecular profiles of biological samples. For example it was used to refine ovarian cancer molecular subtypes (Verhaak et al., 2013), cancer immune subtypes (Tamborero et al., 2018, Thorsson et al., 2018). 
 
-This workshop will compare different approaches for extracting single samples gene set scores and 1) how these scores can be used to discover subtypes in samples and 2) discover new genes or proteins that might associated with a biological trait of interest 
+This hands-on workshop will compare different approaches for extracting single samples gene set scores and 1) how these scores can be used to discover subtypes in samples and 2) discover new genes or proteins that might associated with a biological trait of interest 
 
 ## Pre-requisites
 
