@@ -1,0 +1,63 @@
+---
+title: "Workshop_ssGSA"
+output: html_document
+---
+# Single Sample Gene Set Analysis 
+
+# Instructor(s) name(s) and contact information
+
+Aedin Culhane aedin at jimmy.harvard.edu
+
+# Workshop Description
+
+This workshop will compare different approaches for extracting single samples gene set scores and 1) how these scores can be used to discover subtypes in samples and 2) discover new genes or proteins that might associated with a biological trait of interest 
+
+## Pre-requisites
+
+List any workshop prerequisites, for example:
+
+* Basic knowledge of R syntax
+* Familiarity with the Prinipcal component analysis and Gene Ontology
+
+
+
+## Workshop Participation
+
+This will be instructor led and hands-on.  We will lead students through several examples and explain which methods are appropriate for which analysis questions
+
+## _R_ / _Bioconductor_ packages used
+
+-GSVA : single sample gene set analysis (ssGSEA), gene set variation analysis (gsva) 
+-EGSEA: ensemble gene set analysis
+-fgsea: fast gene set analysis
+-moGSA: multi omics integrative gene set analysis
+
+## Time outline
+
+A 45-minute workshop:
+
+| Activity                                               | Time |
+|--------------------------------------------------------|------|
+| Background/Introduction to ssGSEA, GSVA                | 10m  |
+| Gene set databases (GO,MSigDB,Graphite,Target)         | 10m |
+| Introduction to moGSA                                  | 10m |
+| Application/Comparisons using BiocOncoTK data          | 10m |
+| Questions                                              | 5m  |
+
+# Workshop goals and objectives
+
+
+## Learning goals
+
+* Describe how to run different ssGSA methods
+* identify pros/cons for each for cluster discovery
+* Become familiar with differnt gene set database 
+
+
+## Learning objectives
+
+* use GSVA to generate ssGSEA and ssGSVA scores of genesets
+* use moGSA to generate gene set scores using matrix factorization (of a single and multiple datasets)
+* Learn which databases contain gene sets of interest (for RNAseq, proteins or single cell analysis)
+* Application to cancer (BioOncoTK)
+
